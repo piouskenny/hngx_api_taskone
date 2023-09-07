@@ -21,7 +21,7 @@ class AppController extends Controller
                 'current_day' => date('l'), 
                 'utc_time' => gmdate('Y-m-d\TH:i:s\Z'),
                 'track' => $track,
-                'github_file_url' => 'https://github.com/username/repo/blob/main/file_name.ext',
+                'github_file_url' => 'https://github.com/piouskenny/hngx_api_taskone/blob/main/app/Http/Controllers/Api/AppController.php',
                 'github_repo_url' => 'https://github.com/piouskenny/hngx_api_taskone',
                 'status_code' => 200
             ], 400);
